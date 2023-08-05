@@ -23,7 +23,7 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
   display:flex;
   
-  padding:20px;
+  padding:10px;
   gap:10px;
   
   
@@ -41,7 +41,7 @@ body {
   align-items: center;
   justify-content: center;
   
-  
+  padding:5px;
   flex-shrink:0;
   
   
@@ -60,7 +60,7 @@ body {
   justify-content: center;
   border: 1px solid #eee;
   padding: 0;
-  margin-left: auto;
+  
 }
 
 button {
@@ -87,6 +87,7 @@ button.cancel {
   font-size:large;
   margin-bottom:10px;
   display:flex;
+  justify-content:space-between;
 }
 
 .but {
